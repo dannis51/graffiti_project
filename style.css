@@ -1,17 +1,63 @@
 /*
-websitez: Grafitti project;
+website: Grafitti project;
 Danni Santana is the author of this page
+Color theme is light gray, Yellow and blue. Black text on white background. 
 */
 
-h1
-{
-color: 0000FF;
-text-align: center;
-text-shadow: 4px 4px #86d7e8;
+
+body{
+	font-family: 'Noto Sans', sans-serif;
+ 	background-color:#dbdbdb;    
+  	color: black;
 }
-p
-{
-	font-family: impact;
-	font-size: 14px;
+
+h1{ font-family: 'Noto Sans', sans-serif;
+	font-size: 55px; 
+	font-style: bold; 
+	font-weight: 400px; 
+	line-height: 40px;
 	text-align: center;
+	text-shadow: 2px 2px #000;
+	position: fixed;
+	left: 415px;
+}
+
+.img{
+	position: fixed;
+	top: 140px;
+	left: 60px;
+	padding-left: 20px;
+}
+
+.map{
+
+	padding: 1px;
+}
+
+#content{
+	position: relative; 
+	top: 875px;
+    left: 160px;
+	width: 730px;
+	background-color: white; 
+	font-size: 16px;  
+	line-height: 18px;
+	text-align: left;
+	border-color: #7FFF00;
+	border-width: 30px; 
+	padding: 18px 18px 18px 18px;
+}
+
+#audio{
+	background-color: #7FFF00;
+	position: absolute;
+	top: 2650px;
+	right: 500px;
+    
+
+}
+
+
+
+
 }
